@@ -1,0 +1,16 @@
+-- 전체 데이터 갯수는?
+SELECT COUNT(*) FROM TBL_CAMPAREA tc ;
+
+
+-- 강원도 데이터 갯수는?
+SELECT count(*) FROM tbl_campArea tca WHERE address LIKE '강원도%';
+
+
+-- 강원도의 자동차 야영장 이름 , 부대시설 조회하기
+SELECT camp_name,ect1,ect2 
+
+
+-- 자동차 야영장 갯수가 50개 이상인 곳 야영장 이름, 주소 조회하기
+
+
+-- 카라반 있는 야영장 이름, 주소, 카라반 갯수 조회하기 
